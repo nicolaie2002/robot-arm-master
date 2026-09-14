@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+
+# Biometric data and local databases
+dataset/
+datasets/
+encodings.pickle
+*.db
+*.sqlite
+*.sqlite3
+
+# Raspberry Pi and large backup files
+*.img
+*.iso
+*.zip
+*.7z
+
+# IDE and OS files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Generated output
+logs/
+captures/
+output/
+models/
