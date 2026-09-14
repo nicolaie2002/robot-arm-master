@@ -14,6 +14,7 @@ env/
 *.key
 *.crt
 secrets/
+private-local/
 
 # Biometric data and local databases
 dataset/
